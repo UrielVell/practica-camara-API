@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    max-width: 100px;
+    background-color: rgb(7, 131, 7);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#container-data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

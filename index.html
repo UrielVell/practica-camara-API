@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispositivos de E/S - Cámara</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="stylesheet" href="estilos.css">
+    <script src="camara.js" defer></script>
+</head>
+<body>
+    <button id="btn-camara">Iniciar la Cámara</button>
+    <video id="video" width="320" height="240" autoplay></video>
+    <button id="btn-foto">Tomar Foto</button>
+    <div id="container-data">
+        <canvas id="canvas" width="320" height="240"></canvas>
+        <div id="header-url">Data URL de la imagen</div>
+        <textarea id="data-url" cols="30" rows="10" readonly></textarea>
+    </div>
+</body>
+</html>
